@@ -1,0 +1,47 @@
+.main-container__background-image{
+    position: relative;
+}
+
+
+.background-image__mobile{
+    display: block;
+    width: 100%; 
+    height: 400px; 
+    background-size: cover; 
+    background-position: center center; 
+    background-repeat: no-repeat;
+}
+
+.background-image__button{
+    position: absolute;
+    background: transparent;
+    width: 1.5%;
+}
+
+.background-image__hint-magnet{
+   width: 5%;
+   position: absolute;
+   z-index: 1;
+   bottom: 1%; 
+   left: 1%;
+   background-color: #fff;
+   border-radius: 50px;
+   border: 3px solid rgb(213, 45, 45);
+}
+
+.background-image__hint-magnet:hover{
+    transform: translateY(-5px);
+}
+
+
+.hint-magnet__quantity{
+    font-size: 1em;
+    position: absolute;
+    z-index: 2;
+    color: #fff;
+    padding: 4px 10px;
+    background-color: rgb(213, 45, 45);
+    border-radius: 10px;
+    left: 72%;
+    bottom: -6px;
+}
